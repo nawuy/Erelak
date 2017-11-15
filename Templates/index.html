@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <link rel="stylesheet" href="/static/css/erelak.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+   <script type= "text/javascript" src ="/static/js/Erelak.js" ></script>
+   <title> Erelak.com</title>
+ </head>
+ <header id="header">
+ <table>
+   <tr>
+     <td id="one"></td>
+     <td id="two"></td>
+     <td id="three"></td>
+   </tr>
+ </table>
+ </header>
+<body> 
+  <div> <!-- this is the logo of Erelak,
+    with the white letters and the blue background (css refer #2)-->
+    <img id="logo" src="/static/img/logo.png" alt="image not displayed"/>
+  </div>
+
+  <div id="search_section"> <!-- here we have the search box where
+    you type your search (css refer #3) -->
+       <input name="q" id="search_box" onkeydown="fun()" type="text" autofocus> <!-- (css refer #3.1) -->
+       <button id="glass_button" type="submit"></button>
+    </form>
+ </div>
+
+
+ <table id="websites">
+ <tr>
+   <td width="50%" align="left"><img class="vimeo_dailymotion" src="/static/img/vimeo.png"></td>
+   <td align="left"><img class="vimeo_dailymotion" src="/static/img/dailymotion.png"</td>
+ </tr> 
+ </table>
+
+<div id='tables'>
+     <table id='results-vimeo' class="hidden-results"> <!-- (css refer #3.3) --></table>
+     <table id='results-dailymotion' class="hidden-results" > <!-- (css refer #3.3) --></table>
+</div>
+
+
+ </body>
+
+</html>

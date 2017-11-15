@@ -1,0 +1,173 @@
+/* refer #0 */
+p{ 
+ font-family: helvetica;
+ font-size: 16px;
+ color: white;
+}
+
+header{
+ /* background-color: rgb(146, 169, 206);*/
+  margin: 0px;
+  height: 130px;
+}
+
+/* refer #1 */
+html, body{ 
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(252, 249, 249);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* refer #2 */
+#logo{
+  display: block;
+  position: relative;
+  background-color: rgba(0, 0, 102, 0.75);
+  background-size:100% 100%;
+  width: 260px;
+  margin: auto;
+  margin-top:30px;
+  box-shadow: 2px 2px 10px grey;
+}
+
+
+/* refer #3 */
+#search_section{ 
+  margin: auto;
+  width: 700px;
+}
+
+/* refer #3.1 */
+#search_box{ 
+  text-align: left;
+  width: 555px;
+  outline: none;
+  box-shadow: 2px 2px 10px grey;
+  border: solid 1px white;
+}
+
+/* refer #3.11 */
+input[type=text], select{ 
+  font-family:helvetica;
+  font-size:20px;
+  width: 555px;
+  padding: 8.5px 20px;
+  margin: 40px 5px;
+}
+
+/* refer #3.2 */
+#glass_button {
+    background: url('/static/img/magnifier_glass.PNG');
+    background-size:100% 100%;
+    position: relative;
+    top: 4px;
+    height:40px;
+    width:40px;
+    background-color: rgba(0, 0, 102, 0.75);
+    border: none;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 1px 1px;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px grey;
+}
+
+#logo.newLogo{
+  width: 130px; 
+  margin-left: 0px; 
+  margin-top: 0px;
+}
+
+#header.newHeader{
+  background-color: rgb(146, 169, 206);
+}
+
+#glass_button.newbutton{
+  top: 0px;
+}
+
+#tables{
+    width: 100%;
+    display: flex;
+    flex-grow: 1;   
+}
+
+#websites{
+  position: relative;
+  width: 100%;
+  height: 20px;
+  background-color: rgb(244, 66, 75);
+  box-shadow: 2px 2px 10px grey;
+}
+
+.vimeo_dailymotion{
+  height: 30px;
+
+}
+.thumb {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.thumb-link {
+  width: 200px;
+  height: 100px;
+  margin: auto;  /* Magic! */
+}
+
+
+.tr_content {
+    padding: 5px;
+}
+
+.td_content{
+  display: flex;
+}
+
+.text_container{
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.hidden-results {
+  display: none;
+}
+
+.visible-results{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: rgba(215, 225, 236, 0.65);
+  font-family: helvetica;
+  padding-top: 10px;
+
+  /* it dislpays the css with "block", with 'none' it disapear */
+}
+
+.title_video{
+  color: #4b576b;
+  font-family: Arial, Helvetica;
+  font-weight: bold;
+  font-size: 19;
+  text-decoration: none;
+}
+
+
+
+.n_views{
+  font-family: Arial;
+  font-size: 12px;
+  color: grey;
+}
+
+.channel{
+  font-family: Arial;
+  font-size: 12px;
+  color: grey;
+  text-decoration: none;
+}
